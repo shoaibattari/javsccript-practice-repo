@@ -1,6 +1,6 @@
 alert("hello world");
 
 
-var name = "shoiab memon";
+var name = "shoaib memon";
 alert(name);
 
