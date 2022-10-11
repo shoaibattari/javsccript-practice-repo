@@ -103,11 +103,20 @@ for (let i =1;i<=time; i++){
 // c. Now store a Fahrenheit temperature into a variable.
 // d. Convert it to Celsius & output “NNoF is NNoC”.
 
-/// celsius to farhenheit 
+
+
+/// function create to celsius to farhenheit 
 function convert(){
 let user_celsius = document.getElementById("user_celsius").value;
-let converter = user_celsius
-// alert(user_celsius);
+document.getElementById("outputfarhenheit").innerHTML =
+user_celsius + "<sup>o</sup>C is " + ((user_celsius*9/5)+32)  + "<sup>o</sup>F " ;};
 
-console.log(user_celsius);
+
+/// function create to farhenheit to celsius
+
+function convertf2c(){
+    let user_farhenheit = document.getElementById("user_farhenheit").value;
+    document.getElementById("outputcalsius").innerHTML = 
+    user_farhenheit + "<sup>o</sup>F is " + ((user_farhenheit-32)*5/9)  + "<sup>o</sup>C " 
+;
 };
