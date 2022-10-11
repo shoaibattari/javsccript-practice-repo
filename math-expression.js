@@ -94,3 +94,20 @@ for (let i =1;i<=time; i++){
     
     document.write("5"  + " X " + i + " = " + table*i + "<br>");
 }
+
+
+// 6. The Temperature Converter: It’s hot out! Let’s make a 
+// converter based on the steps here.
+// a. Store a Celsius temperature into a variable.
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+
+/// celsius to farhenheit 
+function convert(){
+let user_celsius = document.getElementById("user_celsius").value;
+let converter = user_celsius
+// alert(user_celsius);
+
+console.log(user_celsius);
+};
